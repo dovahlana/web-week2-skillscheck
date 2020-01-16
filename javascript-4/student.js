@@ -84,7 +84,7 @@ function setPowers(arr) {
 // that will update the text on the screen.
 
 function redactInfo(obj) {
-    for(let key in obj ) {
+    for(let val in me ) {
         return 'redacted';
     }
     redacted();
